@@ -1,6 +1,6 @@
 # Forløb: Klassifikation med ANN og CNN på MNIST-datasættet
 
-Dette forløb introducerer **Artificial Neural Networks (ANN)** og
+I det følgende introducerer vi **Artificial Neural Networks (ANN)** og
 **Convolutional Neural Networks (CNN)** ved hjælp af
 **MNIST-datasættet**, som indeholder billeder af håndskrevne cifre fra 0
 til 9.
@@ -11,7 +11,6 @@ struktur.
 
 ## Formål
 
-Efter forløbet skal du kunne:
 
 1.  forklare grundideen i et neuralt netværk.
 2.  bygge og træne et simpelt ANN.
@@ -155,7 +154,7 @@ Laget har 128 neuroner.
 Hver af de 784 inputværdier er forbundet med alle 128 neuroner, og hver
 forbindelse har sin egen vægt.
 
-`relu` er lagets aktiveringsfunktion.
+`relu` er lagets såkaldte aktiveringsfunktion.
 
 ### Outputlaget
 
@@ -437,48 +436,7 @@ hvordan de første lag behandler inputdataene.
 
 ------------------------------------------------------------------------
 
-# Unplugged øvelse: Hvordan arbejder et CNN?
 
-CNN-princippet kan illustreres uden en computer.
-
-Eleverne deles i grupper, som repræsenterer forskellige lag.
-
-### Gruppe 1 -- simple træk
-
-Gruppen modtager et billede og skal fremhæve eller tegne simple træk fra
-billedet, eksempelvis kanter og linjer.
-
-Dette illustrerer de tidlige convolutional-lag.
-
-### Gruppe 2 -- former
-
-Den næste gruppe får resultatet fra den første gruppe og undersøger, om
-informationen kan kombineres til eksempelvis:
-
--   cirkler
--   trekanter
--   rektangler
-
-Dette illustrerer, hvordan senere lag kan kombinere simple træk til mere
-komplekse mønstre.
-
-### Gruppe 3 -- klassifikation
-
-Den sidste gruppe skal ud fra informationen afgøre, hvilket motiv
-billedet forestiller.
-
-Det illustrerer den afsluttende klassifikation.
-
-### Pooling
-
-Der kan indsættes en gruppe mellem lagene, som reducerer informationen
-og kun sender de mest markante observationer videre.
-
-Dette kan bruges som analogi til pooling.
-
-> Øvelsen er en forenklet analogi. Et rigtigt CNN får ikke på forhånd
-> besked på at lede efter bestemte kanter eller geometriske former.
-> Filtrenes vægte læres under træningen.
 
 ------------------------------------------------------------------------
 
@@ -553,7 +511,7 @@ Hvordan påvirker det træningstid og nøjagtighed?
 
 # Opsamling
 
-I forløbet har vi bevæget os fra et almindeligt kunstigt neuralt netværk
+I det ovenstående har vi bevæget os fra et almindeligt kunstigt neuralt netværk
 til et convolutional neural network.
 
 Den grundlæggende idé er den samme: Modellen lærer **vægte** ud fra
