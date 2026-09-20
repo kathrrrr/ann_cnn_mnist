@@ -1,5 +1,53 @@
 # Klassifikation med ANN og CNN på MNIST-datasættet
 
+Hvis pip install driller kan du
+## Oprette et virtuelt Python-miljø i VS Code
+
+I VS Code-terminalen, stå i projektmappen og kør:
+
+```bash
+python -m venv .venv
+```
+
+Dette opretter et virtuelt Python-miljø med navnet `.venv`.
+
+### Aktivér miljøet
+
+På **Windows**:
+
+```bash
+.venv\Scripts\activate
+```
+
+På **Mac/Linux**:
+
+```bash
+source .venv/bin/activate
+```
+
+### Installér de nødvendige biblioteker
+
+Opdatér først `pip`:
+
+```bash
+python -m pip install --upgrade pip
+```
+
+Installér derefter de biblioteker, der skal bruges:
+
+```bash
+pip install tensorflow matplotlib numpy
+```
+
+### Vælg Python-miljøet i VS Code
+
+Sørg for, at VS Code bruger det nye virtuelle miljø:
+
+1. Tryk **Ctrl+Shift+P** på Windows eller **Cmd+Shift+P** på Mac.
+2. Søg efter **Python: Select Interpreter**.
+3. Vælg den Python-fortolker, der ligger i `.venv`.
+
+
 I det følgende introducerer vi **Artificial Neural Networks (ANN)** og
 **Convolutional Neural Networks (CNN)** ved hjælp af
 **MNIST-datasættet**, som indeholder billeder af håndskrevne cifre fra 0
