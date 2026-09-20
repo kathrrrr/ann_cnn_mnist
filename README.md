@@ -1,20 +1,20 @@
-# Forløb: Klassifikation med ANN og CNN på MNIST-datasættet
+# Klassifikation med ANN og CNN på MNIST-datasættet
 
 I det følgende introducerer vi **Artificial Neural Networks (ANN)** og
 **Convolutional Neural Networks (CNN)** ved hjælp af
 **MNIST-datasættet**, som indeholder billeder af håndskrevne cifre fra 0
 til 9.
 
-Forløbet viser først, hvordan et ANN kan klassificere cifrene, og
+Vi ser først, hvordan et ANN kan klassificere cifrene, og
 derefter hvordan et CNN kan udnytte billedernes todimensionelle
 struktur.
 
-## Formål
+## Vi vil
 
 
 1.  forklare grundideen i et neuralt netværk.
 2.  bygge og træne et simpelt ANN.
-3.  forklare forskellen på et ANN og et CNN.
+3.  se forskellen på et ANN og et CNN.
 4.  bygge og træne et simpelt CNN.
 5.  forklare begreber som **vægt**, **bias**, **aktiveringsfunktion**,
     **epoke**, **accuracy** og **loss**.
